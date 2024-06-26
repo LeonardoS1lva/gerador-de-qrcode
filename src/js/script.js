@@ -9,6 +9,7 @@ function gerarQRCode() {
 }
 
 function limparLink() {
+  qrCode.innerHTML = "";
   link.value = "";
 }
 
